@@ -25,7 +25,7 @@ jobs:
 
       - name: Running Python
         run: |
-          python FetchRevenue.py
+          python FetchRevenue.py MonthlyRevenue.csv
 
       - name: Commit and Push The Results From Python Action
         run: |
