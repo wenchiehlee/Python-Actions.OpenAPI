@@ -8,7 +8,7 @@ on:
     - cron: "0 7 * * *"  # Runs every day at 7:00 AM UTC (3:00 PM Taipei time)
 jobs:
   API:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checking out repo
         uses: actions/checkout@v7
